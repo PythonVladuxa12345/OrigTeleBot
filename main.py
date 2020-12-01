@@ -4,7 +4,7 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 from PIL import Image
 
-bot = Bot(token='1440337804:AAGtyNux9KGyHwbsnqV9vKfPUV93vLDjVhg')
+bot = Bot(token='1440337804:AAGtyNux0KGyHwbskqV3vKfPUV31vLDjVhg')
 dp = Dispatcher(bot)
 
 
