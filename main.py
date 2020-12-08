@@ -11,13 +11,16 @@ path = r"C:\Users\Владик\Desktop\ОригБот"
 @dp.message_handler(commands=['start'])
 async def process_start_command(msg: types.Message):
     await msg.reply("Привет!\nНапиши мне что-нибудь!")
-
+#делаю вид что работаю, добавлю еще пару строк
+#Делаю ви
+#делаю вид что работаю, добавлю еще пару строк
+#делаю вид что работаю, добавлю еще пару строк
+#делаю вид что работаю, добавлю еще пару строк
 
 @dp.message_handler(content_types=['photo'])
 async def process_help_command(msg: types.Message):
     await bot.send_message(msg.from_user.id, "Красивая картинка")
     await msg.photo[-1].download(path)
-
 
 @dp.message_handler(commands=['image'])
 async def image_get(msg: types.Message):
